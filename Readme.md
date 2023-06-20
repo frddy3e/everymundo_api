@@ -2,7 +2,14 @@
 
 ## Description
 
-A travel agency desires to advertise fares on several different countries, but every country has different ways to display a fare formatting depending on the currency/country combination:
+This API is a microservice that will receive a country and currency combination and will return the formatted fare.
+
+The API allows to perform the following operations:
+
+- CRUD operations on the countries and currencies.
+- Create formats for a given country and currency combination.
+- CRUD operations on the formats.
+- Get the formatted fare for a given country and currency combination.
 
 ## Install
 
