@@ -1,0 +1,6 @@
+{
+  "reporter": ["text", "lcov"],
+  "report-dir": "coverage",
+  "include": ["src/**/*.js"],
+  "exclude": ["**/node_modules/**", "**/test/**"]
+}
